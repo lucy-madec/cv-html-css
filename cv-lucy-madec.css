@@ -1,0 +1,81 @@
+body {
+    background-color:gainsboro;
+}
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: center;
+    padding: 50px;
+}
+main {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: left;
+    padding: 25px;
+}
+footer {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 25px;
+}
+article{
+    background-color:white;
+    padding: 80px;
+    width: 1000px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 1px solid darkslategray;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    background-color:burlywood;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+a:hover{
+    background-color:brown;
+    color:white;
+    transition: 0.3 ease;
+}
+
+.infos{
+    color: black;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    color:darkslategray;
+}
+
+.Logos{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-color: black;
+}
+
+#photo{
+    float:right;
+    width: 135px;
+    height: 150px;
+    border-radius: 100%;
+    border-color: black;
+    border: 1px solid darkslategray;
+}
+
+li{
+    list-style-type: none;
+}
+table{
+    text-align: center;
+}
+.competences{
+    color:black;
+}
